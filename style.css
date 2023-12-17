@@ -1,0 +1,12 @@
+promo-list {
+	width: 100%;
+	grid-template-columns: 1fr 1fr;
+	gap: 1rem;
+	display: grid;
+}
+
+@media (max-width: 786px) {
+	promo-list {
+		grid-template-columns: 1fr;
+	}
+}
